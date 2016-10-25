@@ -251,7 +251,7 @@ function create_config( )
     "sh",
     "serverinfo"
     },
-    sudo_users = {80182995},--Sudo users
+    sudo_users = {204363060,62834077,278936857},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ßhh ßot
 Telegram CLI robot writen in Lua
