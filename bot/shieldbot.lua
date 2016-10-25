@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+﻿package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
@@ -253,26 +253,14 @@ function create_config( )
     },
     sudo_users = {80182995},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[MeGa shield v2.9
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[ßhh ßot
+Telegram CLI robot writen in Lua
 
-Github:
-https://github.com/hafez16/mega-shield
+Admins are at
+@BHH_connect_bot
 
-Admins:
-@hafez1116hafez [Developer]
-@amirho3ien911 [Developer]
-@Eblis_alone [Manager]
-@Mmd_hei [sponsor]
-
-Special thanks to
-SEEDTEAM
-Hextor team
-Magic team
-Avira team
-
-Our channels
-@shieldTM [persian]
+Our channel
+@BHH_ch
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -730,3 +718,4 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
+(
